@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "deepcell==0.12.6",
+    "geopandas>=1.0.1",
+    "imagecodecs>=2024.12.30",
+    "ipykernel>=6.29.5",
     "pycodex",
     "pyqupath",
+    "tqdm-joblib>=0.0.4",
 ]
 
 [tool.uv.sources]
